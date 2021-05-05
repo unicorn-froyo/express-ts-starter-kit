@@ -2,6 +2,7 @@ module.exports = {
     env: {
         browser: false,
         es6: true,
+        jest: true,
     },
     extends: ['airbnb-base', 'eslint-config-prettier', 'plugin:prettier/recommended'],
     parser: '@typescript-eslint/parser',
