@@ -32,5 +32,6 @@ jobs:
             - run: yarn build
     success:
         needs: build
+        runs-on: ubuntu-latest
         steps:
             - run: echo "Job ${{ github.run_id }} completed successfully"
